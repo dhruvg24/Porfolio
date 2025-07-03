@@ -1,8 +1,30 @@
 import React from 'react'
+import ThemeToggle from '../components/ThemeToggle';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className='min-h-screen bg-background text-foreground overflow-x-hidden'>
+        
+        {/* Theme toggle (dark/light themes) */}
+        <ThemeToggle />
+
+
+        {/* Background effects */}
+
+
+
+        {/* Navbar */}
+
+
+
+        {/* Main content */}
+
+
+        {/* Footer */}
+
+        
+
+    </div>
   )
 }
 
