@@ -11,6 +11,15 @@ const Background = () => {
   useEffect(()=>{
     generateStars();
     generateMeteors();
+
+    // during resizing of window need to keep stars and meteors within the viewframe
+    const handleResize = () => {
+        generateStars();
+    }
+    window.addEventListener("resize", handleResize);
+
+    // on unmount
+    return ()=>window.removeEventListener("resize", handleResize);
   }, [])
 // callback function is called only once the page renders.
 
