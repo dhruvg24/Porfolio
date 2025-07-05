@@ -3,6 +3,7 @@ import ThemeToggle from '../components/ThemeToggle';
 import Background from '../components/Background';
 import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
+import AboutSection from '../components/AboutSection';
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
         {/* Main content */}
         <main>
           <HeroSection />
+          <AboutSection />
         </main>
 
 
