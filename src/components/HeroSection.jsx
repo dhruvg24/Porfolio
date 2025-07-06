@@ -29,8 +29,9 @@ const HeroSection = () => {
             <span className='text-sm text-muted text-foreground mb-2'>
                 Scroll
             </span>
-
-            <ArrowDown className='h-5 w-5 text-primary' />
+            <a href="#about">
+            <ArrowDown  className='h-5 w-5 text-primary' />
+            </a>
          </div>
     </section>
   )
